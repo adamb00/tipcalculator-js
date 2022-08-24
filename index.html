@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <form action="" class="form calculate .col-sm-6 .col-xs-12">
+          <div class="bill">
+            <label for="Bill">Bill</label>
+            <div class="bill">
+              <input type="text" placeholder="" />
+            </div>
+          </div>
+          <div class="selectTip">
+            <label for="selectTip">Select Tip %</label>
+            <div class="selectTip">
+              <button id="5">5%</button>
+              <button id="10">10%</button>
+              <button id="15">15%</button>
+              <button id="25">25%</button>
+              <button id="50">50%</button>
+              <input
+                type=""
+                name=""
+                id="num"
+                class="tipInput"
+                placeholder="Custom"
+              />
+            </div>
+          </div>
+          <div class="num">
+            <label for="numOfPeop">Number of People</label>
+            <span class="cantBeZero">Can't be zero</span>
+          </div>
+          <div class="numOfPeop">
+            <input type="" name="" id="numOfPeop" placeholder="" />
+          </div>
+        </form>
+        <div class="displayTipContainer .col-sm-6 .col-xs-12">
+          <div class="tipAmount">
+            <div class="amount">
+              Tip Amount <span class="updateblePric aPrice"> $0.00</span>
+            </div>
+            <div class="person">/ person</div>
+          </div>
+          <div class="totalAmount">
+            <div class="tAmount">
+              Total <span class="updateblePric tPrice"> $0.00</span>
+            </div>
+            <div class="person">/ person</div>
+          </div>
+          <button class="btnReset">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
